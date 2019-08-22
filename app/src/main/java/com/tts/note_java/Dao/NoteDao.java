@@ -3,7 +3,7 @@ package com.tts.note_java.Dao;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.*;
-import com.tts.note_java.Entity.Note;
+import com.tts.note_java.entity.Note;
 
 import java.util.List;
 

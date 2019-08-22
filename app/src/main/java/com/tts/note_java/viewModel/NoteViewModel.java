@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.tts.note_java.Entity.Note;
-import com.tts.note_java.Repository.NoteRepository;
+import com.tts.note_java.entity.Note;
+import com.tts.note_java.repository.NoteRepository;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.tts.note_java.Repository;
+package com.tts.note_java.repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
@@ -6,8 +6,8 @@ import android.os.AsyncTask;
 import androidx.lifecycle.LiveData;
 
 import com.tts.note_java.Dao.NoteDao;
-import com.tts.note_java.Database.NoteDatabase;
-import com.tts.note_java.Entity.Note;
+import com.tts.note_java.database.NoteDatabase;
+import com.tts.note_java.entity.Note;
 
 import java.util.List;
 
@@ -97,6 +97,7 @@ public class NoteRepository {
 
         @Override
         protected Void doInBackground(Void... voids) {
+            noteDao.deleteAll();
             return null;
         }
     }

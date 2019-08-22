@@ -1,6 +1,5 @@
-package com.tts.note_java.Entity;
+package com.tts.note_java.entity;
 
-import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 

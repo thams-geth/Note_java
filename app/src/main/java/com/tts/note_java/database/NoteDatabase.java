@@ -1,4 +1,4 @@
-package com.tts.note_java.Database;
+package com.tts.note_java.database;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -10,7 +10,7 @@ import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import com.tts.note_java.Dao.NoteDao;
-import com.tts.note_java.Entity.Note;
+import com.tts.note_java.entity.Note;
 
 @Database(entities = {Note.class}, version = 1)
 public abstract class NoteDatabase extends RoomDatabase {
